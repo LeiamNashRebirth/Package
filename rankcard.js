@@ -1,10 +1,3 @@
-/*
-name: rankcard
-author: Leiam Nash 
-version: 1.0.1
-description: install package using  my code you can customize the dirname at line 9
-note: this program uses fs-extra and request package you can see it on npm 
-*/
 module.exports.onLoad = () => {
     const fs = require("fs-extra");
     const request = require("request");
